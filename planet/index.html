@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo" onclick="slowScroll('#top')">
+        <span>Universe</span>
+      </div>
+      <div id="about">
+        <a href="#" title="Возможности" onclick="slowScroll('#main')"
+          >Возможности</a
+        >
+        <a href="#" onclick="slowScroll('#overview')" title="Преимущества"
+          >Преимущества</a
+        >
+        <a href="#" onclick="slowScroll('#contacts')" title="Контакты"
+          >Контакты</a
+        >
+        <a href="#faq" onclick="slowScroll('faq')" title="Ответы на вопросы"
+          >FAQ</a
+        >
+      </div>
+    </header>
+
+    <div id="top">
+      <h1>Happiness</h1>
+      <h3>depends upon ourselver</h3>
+    </div>
+
+    <div id="main">
+      <div class="intro">
+        <h2>Наши услуги помогут вам!</h2>
+        <span>Большой выбор всего, что может вам пригодиться</span>
+      </div>
+      <div class="text">
+        <span
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni
+          qui omnis similique rerum quis blanditiis sit, doloribus, consectetur,
+          dolorem at suscipit quod eligendi dicta minima. Natus dolore dolores
+          molestiae.</span
+        >
+      </div>
+    </div>
+
+    <div id="overview">
+      <h2>Преимущества</h2>
+      <h4>с нами все проще</h4>
+
+      <div class="img">
+        <img src="alt" ="" />
+        <span>Изучение языка Ruby для начинающих</span>
+      </div>
+      <div class="img">
+        <img
+          src="https://akspic.ru/image/131393-mlechnyj_put-zemlya-nebesnoe_yavlenie-priroda-luna/1920x1080"
+          alt=""
+        />
+        <span>Уроки фотошоп для начинающих</span>
+      </div>
+    </div>
+
+    <div id="contacts">
+      <center><h5>Обратная связь</h5></center>
+      <form id="form_input">
+        <label for="name">Имя <span>*</span></label
+        ><br />
+        <input
+          type="text"
+          placeholder="Введите имя"
+          name="name"
+          id="name"
+        /><br />
+        <label for="email">Ваша почта <span>*</span></label
+        ><br />
+        <input
+          type="email"
+          placeholder="Введите email"
+          name="email"
+          id="email"
+        /><br />
+        <label for="message">Сообщение <span>*</span></label
+        ><br />
+        <textarea
+          placeholder="Введите ваше сообщение"
+          name="message"
+          id="message"
+        ></textarea
+        ><br />
+        <div id="mess_send" class="btn">Отправить</div>
+      </form>
+    </div>
+
+    <div id="faq">
+      <div>
+        <span class="title">Оплата</span><br />
+        <span class="heading">Как будет проходит оплата?</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero
+          consequatur beatae iure neque, maxime qui, eligendi quia ratione modi
+          impedit maiores dignissimos ipsum aliquid expedita itaque amet.
+          Deserunt quia autem natus qui ipsa reiciendis?
+        </p>
+        <span class="heading">Как будет проходит оплата?</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nobis
+          iste, esse sapiente vel aperiam molestias ratione dolore impedit
+          facilis perferendis est numquam, non accusamus distinctio maiores
+          ipsam ullam fugiat inventore illum quisquam dolorem quasi?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+          maxime sunt voluptates architecto qui ducimus? Eius omnis magni
+          aperiam voluptatum?
+        </p>
+      </div>
+      <div>
+        <span class="title">Информация</span><br />
+        <span class="heading">Что выходит в услугу сервиса</span>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+          perspiciatis excepturi vero provident temporibus nobis veritatis ipsam
+          reprehenderit maxime unde ad, deserunt quidem at placeat maiores quo
+          quae! Nihil distinctio sequi blanditiis.
+        </p>
+        <span class="heading">Что выходитв услугу сервиса</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem animi
+          adipisci doloribus provident laborum, aliquam voluptatibus quam
+          deserunt quas quod error! Cumque praesentium et totam nesciunt?
+          Beatae, nobis.
+        </p>
+        <span class="heading">Что выходит в услугу сервиса</span>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+          molestiae commodi dolorem qui voluptatem nisi culpa eos praesentium,
+          excepturi id adipisci voluptas consectetur dicta laudantium. Quasi
+          mollitia eum dolores!
+        </p>
+      </div>
+      <div>
+        <span class="title">Гарантии</span><br />
+        <span class="heading">Какие гарантии есть</span>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          necessitatibus maxime eaque aperiam quam corporis. Nostrum fugiat
+          dolores exercitationem accusantium vero, unde a eveniet odio possimus
+          pariatur similique saepe maxime ducimus id quos? Officia recusandae
+          neque, soluta necessitatibus eius rem ut est ratione enim amet.
+        </p>
+        <span class="heading">Какие гарантии есть</span>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab cumque
+          doloribus a impedit? Hic vel aliquid accusantium, quia cumque ipsam,
+          reiciendis sapiente possimus magnam quasi necessitatibus laboriosam
+          perspiciatis repellendus expedita doloremque ex deleniti minima nobis
+          autem delectus id!
+        </p>
+        <span class="heading">Какие гарантии есть</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+          illum odio nemo ad nostrum corrupti voluptate aspernatur inventore.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
